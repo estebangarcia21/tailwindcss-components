@@ -7,7 +7,7 @@
   "author": "Esteban Garcia <estebangarcia2121@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode production && tsc --project tsconfig.types.json && move-cli dist/temp/index.d.ts dist/index.d.ts && rimraf dist/temp",
+    "build": "rollup --config && tsc --project tsconfig.types.json && move-cli dist/temp/index.d.ts dist/index.d.ts && rimraf dist/temp",
     "clean": "rimraf dist",
     "test": "jest"
   },
@@ -21,7 +21,6 @@
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.28",
     "@types/react": "^17.0.2",
-    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.2.2",
     "jest": "^26.6.3",
     "move-cli": "^1.2.1",
@@ -29,9 +28,9 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
-    "ts-loader": "^8.0.17",
-    "typescript": "^3",
-    "webpack": "^5.21.2",
-    "webpack-cli": "^4.5.0"
+    "rollup": "^2.39.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2"
   }
 }
