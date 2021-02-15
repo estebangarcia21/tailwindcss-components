@@ -5,12 +5,12 @@ type Children = { children?: React.ReactNode }
 type TemplateComponent = (props: Children) => JSX.Element
 type TemplateFunction = (strings: TemplateStringsArray) => TemplateComponent
 
-type TemplateObject = {
+type TailwindObject = {
   [key in Primitive]: TemplateFunction
 }
 
 export default () => {
-  const templateObject: Partial<TemplateObject> = {}
+  const tailwindObject: Partial<TailwindObject> = {}
 
   primitives.forEach(tag => {
     const TemplateFn = (strings: TemplateStringsArray) => {
@@ -25,8 +25,8 @@ export default () => {
       return Component
     }
 
-    templateObject[tag] = TemplateFn
+    tailwindObject[tag] = TemplateFn
   })
 
-  return templateObject as TemplateObject
+  return tailwindObject as TailwindObject
 }

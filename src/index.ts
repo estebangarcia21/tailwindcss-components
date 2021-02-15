@@ -1,5 +1,5 @@
-import buildTemplateObject from "./tailwind-components"
+import buildTailwindObject from "./tailwind-components"
 
-const twc = buildTemplateObject()
+const twc = buildTailwindObject()
 
 export default twc
