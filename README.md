@@ -5,7 +5,7 @@ An easy to use package for the creation of reusable TailwindCSS components in Re
 ## Features
 
 - 🛠 **Typescript Support**
-- 📦 **Tiny Bundle Size (2.492 KB)**
+- 📦 **Tiny Bundle Size (1.5KB minified, 812B minified + gzipped)**
 - 💨 **Rapid Installation**
 - 🙂 **Easy to Use**
 
