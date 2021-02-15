@@ -8,7 +8,7 @@ An easy to use utility for the creation of reusable TailwindCSS components.
 - 🙂 **Easy to Use**
 
 ## Motivation
-I wanted a tool that was easy to use and easy to install so that I could create reusable TailwindCSS components in a clean way while reducing boilerplate.
+I wanted a tool that was easy to use and easy to install so that I could create reusable TailwindCSS components in a clean way with no boilerplate.
 
 ## Installation
 Install tailwind-components through your favorite package manager.
