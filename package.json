@@ -1,9 +1,9 @@
 {
-  "name": "tailwind-components",
+  "name": "tailwindcss-components",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/Im-Stevemmmmm/tailwind-components.git",
+  "repository": "https://github.com/Im-Stevemmmmm/tailwindcss-components.git",
   "author": "Esteban Garcia <estebangarcia2121@gmail.com>",
   "license": "MIT",
   "scripts": {
