@@ -47,4 +47,4 @@ You can configure the TailwindCSS Intellisense plugin for VSCode to provide styl
 ```
 
 ## How it Works
-`tailwind-components` simply passes down the style string into the className prop of the specified JSX tag.
+`tailwind-components` simply passes down the style string into the `className` prop of the specified JSX tag.
