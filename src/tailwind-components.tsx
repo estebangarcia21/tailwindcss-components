@@ -6,7 +6,7 @@ type TemplateComponent = (props: Children) => JSX.Element
 type TemplateFunction = (strings: TemplateStringsArray) => TemplateComponent
 
 type TemplateObject = {
-  [key in keyof Primitive]: TemplateFunction
+  [key in Primitive]: TemplateFunction
 }
 
 export default () => {
