@@ -1,5 +1,7 @@
 # tailwindcss-components
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Im-Stevemmmmm/tailwindcss-components/Node.js%20CI)
+
 An easy to use package for creating reusable TailwindCSS components in React.
 
 ## Features
