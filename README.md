@@ -1,5 +1,5 @@
 # tailwind-components
-An easy to use utility for the creation of reusable TailwindCSS components.
+An easy to use package for the creation of reusable TailwindCSS components in React.
 
 ## Features
 - 🛠 **Typescript Support**
